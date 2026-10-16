@@ -1,4 +1,4 @@
-# 📊 Investment Portfolio Management
+# Investment Portfolio Management
 
 ## Transforming Historical Market Data into Actionable Investment Insights
 
@@ -8,7 +8,7 @@ This project analyzes historical financial market data for four exchange-traded 
 
 Through financial data analysis, correlation modeling, portfolio allocation, and dashboard development, this project demonstrates how historical market data can be transformed into meaningful investment insights and data-driven portfolio comparisons.
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - Python
 - Google Colab
@@ -21,7 +21,7 @@ Through financial data analysis, correlation modeling, portfolio allocation, and
 - Correlation Analysis
 - Data Visualization
 
-## 💼 Business Problem
+## Business Problem
 
 Investors must balance potential returns against investment risk while considering diversification across different asset classes. However, historical price data alone does not clearly explain how investments behave individually or how their interactions influence portfolio performance.
 
@@ -29,7 +29,7 @@ A structured analytical approach is needed to compare investment alternatives, e
 
 This project addresses these challenges by developing a Python-based framework for analyzing asset performance and comparing hypothetical portfolio allocations.
 
-## 🎯 Analytical Objectives
+## Analytical Objectives
 
 - How have the selected asset classes performed historically?
 - Which assets experienced greater return variability?
@@ -40,7 +40,7 @@ This project addresses these challenges by developing a Python-based framework f
 - How do different annual return assumptions affect long-term investment growth?
 - What limitations should investors consider when interpreting historical results?
 
-## 📈 Dataset
+## Dataset
 
 Historical adjusted price data was retrieved from Yahoo Finance using the `yfinance` Python library.
 
@@ -55,7 +55,7 @@ Four ETFs were selected to represent different asset classes:
 
 The analysis begins on January 1, 2021. The final date depends on the market data available when the notebook is executed.
 
-## 🔍 Analytical Methodology
+## Analytical Methodology
 
 ### 1. Data Collection and Preparation
 
@@ -124,7 +124,7 @@ Illustrative five-year compound-growth scenarios were calculated using hypotheti
 
 The scenarios demonstrate how different assumed growth rates affect potential investment values over time. They are mathematical illustrations, not predictions of actual market returns.
 
-## 📊 Investment Portfolio Management Dashboard
+## Investment Portfolio Management Dashboard
 
 The dashboard presents key portfolio metrics and visualizations to support financial analysis and comparison.
 
@@ -142,7 +142,7 @@ The dashboard presents key portfolio metrics and visualizations to support finan
 - Sharpe ratio comparison
 - Illustrative investment growth scenarios
 
-## 💡 Key Findings
+## Key Findings
 
 ### 1. Asset Correlation Analysis
 
@@ -180,7 +180,7 @@ Compound-growth scenarios were used to demonstrate how different assumed annual 
 
 This analysis illustrates the effect of compounding while emphasizing that actual returns fluctuate and may be negative.
 
-## 📌 Key Business Insights
+## Key Business Insights
 
 - Diversification should consider correlations between assets rather than allocation percentages alone.
 - Higher historical returns do not necessarily indicate lower investment risk.
@@ -188,7 +188,7 @@ This analysis illustrates the effect of compounding while emphasizing that actua
 - Historical volatility and correlation provide useful context but cannot capture every potential market risk.
 - Scenario analysis can help communicate long-term growth assumptions and uncertainty.
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 1. Clone or download this GitHub repository.
 2. Open `Investment_Portfolio_Management.ipynb` in Google Colab.
@@ -208,17 +208,7 @@ investment-portfolio-management/
 └── README.md
 ```
 
-## ⚠️ Limitations
-
-- Historical performance does not guarantee future results.
-- Correlations and volatility may change over time.
-- The analysis excludes transaction costs, taxes, and fund expenses.
-- Daily rebalancing is a simplifying assumption and may not reflect practical portfolio management.
-- Forecast scenarios use hypothetical return assumptions.
-- The selected ETFs represent specific market exposures rather than every available asset class.
-- The analysis is educational and does not constitute personalized investment advice.
-
-## 🎓 Skills Demonstrated
+## Skills Demonstrated
 
 - Financial data collection and preprocessing
 - Python-based financial analysis
@@ -229,7 +219,7 @@ investment-portfolio-management/
 - Data visualization and dashboard design
 - Analytical interpretation and reporting
 
-## 👩‍💻 Author
+## Author
 
 **Mahitha Kalinathabotla**
 
